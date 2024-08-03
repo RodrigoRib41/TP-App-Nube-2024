@@ -1,4 +1,4 @@
-package com.appnube.clientes.model.entity;
+package com.clientes.model.entity;
 
 import java.io.Serializable;
 
