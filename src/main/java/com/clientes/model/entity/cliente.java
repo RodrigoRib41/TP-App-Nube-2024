@@ -1,6 +1,7 @@
 package com.clientes.model.entity;
 
 import java.io.Serializable;
+import java.math.BigInteger;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -34,7 +35,7 @@ public class Cliente implements Serializable {
     private String correo;
 
     @Column(name= "cuit")
-    private Integer cuit;
+    private BigInteger cuit;
 
     @Column(name= "maxdescubierto")
     private Integer maxdescubierto;
